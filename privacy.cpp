@@ -22,8 +22,8 @@ int main (int argc, const char * argv[])
 	int number_of_people, i;
 	int max_count = 15;
 
-	VideoCapture cap(1); // for the web-cam on the laptop
-	//VideoCapture cap(0); // for the external camera 
+	VideoCapture cap(0); // for the web-cam on the laptop
+	//VideoCapture cap(1); // for the external camera 
 	cap.set(3, 320);
 	cap.set(4, 240);
 
